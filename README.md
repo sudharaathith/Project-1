@@ -6,8 +6,19 @@ A Stack Overflow clone Academics
 - Mango db
 - Tailwind :)
 
-## Task todo
+## Task todo 
 
+- [ ] Find a name for the Project.
 - [ ] Come up with an work flow.
 - [ ] Make a UI desing.
-- [ ] Come up with a Bissness Logic.
+- [ ] Come up with a Business Logic.
+- [ ] Start Coding ☕
+
+## Note
+- Every workflow should be well documented.
+- Should finish the project.🥲
+
+# Developers 
+
+- [Sudhar Aathith](https://github.com/sudharaathith/)
+- [Santhosh](https://github.com/Santhoshnov)
