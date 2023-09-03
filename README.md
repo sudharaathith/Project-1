@@ -15,7 +15,7 @@ A Stack Overflow clone Academics
 
 ## Task todo 
 - [ ] Find a name for the Project.
-- [X] Come up with an work flow.
+- [X] ~~Come up with an work flow.~~
 - [ ] Make a UI design.
 - [ ] Come up with a Business Logic.
 - [ ] Start Coding ☕
