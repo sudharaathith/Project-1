@@ -19,6 +19,7 @@ A Stack Overflow clone Academics
   - ask Question
   - Replay Question
   - Share their opinion
+- Make available for feature anonymous users.
 
 ## Note
 - Every workflow should be well documented.
