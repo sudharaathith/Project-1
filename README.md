@@ -7,7 +7,6 @@ A Stack Overflow clone Academics
 - Tailwind :)
 
 ## Task todo 
-
 - [ ] Find a name for the Project.
 - [ ] Come up with an work flow.
 - [ ] Make a UI design.
@@ -29,6 +28,14 @@ A Stack Overflow clone Academics
 - [ ] Comment thread.
 - [ ] edit user profile.
 - [ ] edit Post
+- [ ] delete user account
+
+## Page to Implement
+- [ ] HomePage
+- [ ] Signup and Login pages
+- [ ] Question Threads
+- [ ] User Profilt
+- [ ] Post Edit
 
 ## Note
 - Every workflow should be well documented.
