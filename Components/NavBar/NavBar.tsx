@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SearchBar from "./SearchBar";
 import LoginManager from "./LoginManager";
+import NavLinks from "./NavLinks";
 
 export default function () {
   return (
@@ -13,11 +14,7 @@ export default function () {
         </span>
       </div>
       <SearchBar />
-      <div className="flex justify-between gap-7 my-auto text-sm mr-9">
-      <Link href="/">Home</Link>
-      <Link href="/a=about">About</Link>
-      <LoginManager />
-    </div>
+      <NavLinks />
     </nav>
   );
 }
