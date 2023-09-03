@@ -21,6 +21,15 @@ A Stack Overflow clone Academics
   - Share their opinion
 - Make available for feature anonymous users.
 
+## Features to Implement
+- [ ] view and search Questions.
+- [ ] Authentication.
+- [ ] Ask Question.
+- [ ] vote for Posts.
+- [ ] Comment thread.
+- [ ] edit user profile.
+- [ ] edit Post
+
 ## Note
 - Every workflow should be well documented.
 - Should finish the project.🥲
