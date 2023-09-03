@@ -14,7 +14,7 @@ A Stack Overflow clone Academics
 - Make available for feature anonymous users.
 
 ## Task todo 
-- [ ] Find a name for the Project.
+- [X] ~~Find a name for the Project.~~
 - [X] ~~Come up with an work flow.~~
 - [ ] Make a UI design.
 - [ ] Come up with a Business Logic.
