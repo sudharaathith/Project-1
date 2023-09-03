@@ -14,6 +14,12 @@ A Stack Overflow clone Academics
 - [ ] Come up with a Business Logic.
 - [ ] Start Coding ☕
 
+## Goals
+- To make a Website in which students can:
+  - ask Question
+  - Replay Question
+  - Share their opinion
+
 ## Note
 - Every workflow should be well documented.
 - Should finish the project.🥲
