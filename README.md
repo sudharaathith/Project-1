@@ -10,7 +10,7 @@ A Stack Overflow clone Academics
 
 - [ ] Find a name for the Project.
 - [ ] Come up with an work flow.
-- [ ] Make a UI desing.
+- [ ] Make a UI design.
 - [ ] Come up with a Business Logic.
 - [ ] Start Coding ☕
 
