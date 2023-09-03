@@ -6,19 +6,19 @@ A Stack Overflow clone Academics
 - Mango db
 - Tailwind :)
 
-## Task todo 
-- [ ] Find a name for the Project.
-- [ ] Come up with an work flow.
-- [ ] Make a UI design.
-- [ ] Come up with a Business Logic.
-- [ ] Start Coding ☕
-
 ## Goals
 - To make a Website in which students can:
   - ask Question
   - Replay Question
   - Share their opinion
 - Make available for feature anonymous users.
+
+## Task todo 
+- [ ] Find a name for the Project.
+- [ ] Come up with an work flow.
+- [ ] Make a UI design.
+- [ ] Come up with a Business Logic.
+- [ ] Start Coding ☕
 
 ## Features to Implement
 - [ ] view and search Questions.
@@ -29,6 +29,9 @@ A Stack Overflow clone Academics
 - [ ] edit user profile.
 - [ ] edit Post
 - [ ] delete user account
+      
+### Future Ideas
+- [ ] Realtime commutation.
 
 ## Page to Implement
 - [ ] HomePage
