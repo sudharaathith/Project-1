@@ -12,7 +12,7 @@ export default function () {
   return (
     <motion.div
       layout
-      className="flex justify-between gap-7 my-auto text-sm mr-9"
+      className="flex justify-between gap-7 my-auto text-sm mr-9 select-none"
     >
       <Link href="/">Home {path === "/" && <NavUnderLine />}</Link>
 

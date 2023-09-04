@@ -2,13 +2,14 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: 'About - QuestHub',
+    title: 'Sign In - QuestHub',
  
   }
 
 export default function() {
     return (
         <main>
+            hi
         </main>
     );
 }
