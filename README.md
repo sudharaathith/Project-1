@@ -29,6 +29,7 @@ A Stack Overflow clone Academics
 - [ ] edit user profile.
 - [ ] edit Post
 - [ ] delete user account
+- [ ] Hash tag thread
       
 ### Future Ideas
 - [ ] Realtime commutation.
