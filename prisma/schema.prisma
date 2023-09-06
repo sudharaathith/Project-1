@@ -10,43 +10,49 @@ datasource db {
 // Modify the models for MongoDB
 
 // User model
+generator client {
+  provider        = "prisma-client-js"
+}
+
+model Account {
+  id  String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId             String @db.ObjectId
+  type               String
+  provider           String
+  providerAccountId  String
+  refresh_token      String?  @db.String
+  access_token       String?  @db.String
+  expires_at         Int?
+  token_type         String?
+  scope              String?
+  id_token           String?  @db.String
+  session_state      String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id  String  @id @default(auto()) @map("_id") @db.ObjectId
+  sessionToken String   @unique
+  userId       String @db.ObjectId
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
 model User {
-  _id            ObjectId  @id @map("_id") @default(auto()) // MongoDB uses ObjectId as the primary key
+  id  String  @id @default(auto()) @map("_id") @db.ObjectId
   name          String?
   email         String?   @unique
   emailVerified DateTime?
   image         String?
-  accounts      Account[] // Create an array of embedded documents for accounts
-  sessions      Session[] // Create an array of embedded documents for sessions
+  accounts      Account[]
+  sessions      Session[]
 }
 
-// Account model (embedded within User)
-model Account {
-  provider           String
-  providerAccountId  String
-  refresh_token      String?
-  access_token       String?
-  expires_at         Int?
-  token_type         String?
-  scope              String?
-  id_token           String?
-  session_state      String?
-
-  @@embedded
-}
-
-// Session model (embedded within User)
-model Session {
-  sessionToken String   @unique
-  expires      DateTime
-
-  @@embedded
-}
-
-// VerificationToken model
 model VerificationToken {
-  _id       ObjectId  @id @map("_id") @default(auto()) // MongoDB uses ObjectId as the primary key
-  identifier String
+  identifier String  @id @default(auto()) @map("_id") @db.ObjectId
   token      String   @unique
   expires    DateTime
 
