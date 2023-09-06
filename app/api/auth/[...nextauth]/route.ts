@@ -20,7 +20,7 @@ const handler = NextAuth({
     CredentialsProvider({
       name: "Credentials",
       credentials: {
-        username: { label: "Username", type: "text", placeholder: "jsmith" },
+        email: { label: "Username", type: "text", placeholder: "jsmith" },
         password: { label: "Password", type: "password" },
       },
       authorize: async (credentials: any) => {
@@ -29,7 +29,7 @@ const handler = NextAuth({
 
           const user = await prisma.user.findFirst({
             where: {
-              email: email,
+              email,
             },
           });
 
