@@ -22,7 +22,7 @@ A Stack Overflow clone Academics
 
 ## Features to Implement
 - [ ] view and search Questions.
-- [ ] Authentication.
+- [X] ~~Authentication.~~
 - [ ] Ask Question.
 - [ ] vote for Posts.
 - [ ] Comment thread.
@@ -30,6 +30,7 @@ A Stack Overflow clone Academics
 - [ ] edit Post
 - [ ] delete user account
 - [ ] Hash tag thread
+- [ ] Profile image 
       
 ### Future Ideas
 - [ ] Realtime commutation.
@@ -39,6 +40,7 @@ A Stack Overflow clone Academics
 - [ ] Signup and Login pages
 - [ ] Question Threads
 - [ ] User Profilt
+- [ ] User Verification 
 - [ ] Post Edit
 
 ## Note
